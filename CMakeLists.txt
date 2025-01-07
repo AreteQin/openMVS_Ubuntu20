@@ -177,7 +177,7 @@ endif()
 
 #FIND_PACKAGE(Eigen3 REQUIRED)
 #if(EIGEN3_FOUND)
-        set(EIGEN3_INCLUDE_DIR "/home/qin/openMVS_Ubuntu20/eigen/install/include/eigen3/")
+        set(EIGEN3_INCLUDE_DIR "~/openMVS/eigen/install/include/eigen3/")
 	LIST(APPEND OpenMVS_EXTRA_INCLUDES ${EIGEN3_INCLUDE_DIR})
 	INCLUDE_DIRECTORIES(${EIGEN3_INCLUDE_DIR})
 	LIST(APPEND OpenMVS_DEFINITIONS -D_USE_EIGEN)
